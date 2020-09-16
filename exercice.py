@@ -24,7 +24,8 @@ def get_nb_char(string: str, char: str) -> int:
 
 def get_nb_words(sentence: str) -> int:
     return len(sentence.split())
-    #ne pas mette " " dans le split
+    #ne pas mette " " dans le split sinon cela ne marche pas lorsque la phrase n'est pas bien formater
+    
 
 
 def main() -> None:
